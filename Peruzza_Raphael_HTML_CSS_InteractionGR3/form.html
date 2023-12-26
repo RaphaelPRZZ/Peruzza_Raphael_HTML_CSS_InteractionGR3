@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Seahawks Games</title>
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/form.css" />
+  </head>
+  <body>
+    <header>
+      <a href="index.html">
+        <div class="box-logo">
+          <img
+            src="resources/seattle-seahawks-logo copie.png"
+            alt="logoSeahawks"
+          />
+        </div>
+      </a>
+
+      <nav>
+        <a href="games.html">Games</a>
+        <a href="team.html">Team</a>
+        <a href="statistics.html">Statistics</a>
+        <a href="form.html">Formulaire</a>
+        <a href="pics.html">Pictures</a>
+        <button class="btnMode">Dark</button>
+      </nav>
+      <div class="burger-menu">
+        <div class="burger-icon" id="burger-icon">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+
+        <ul class="menu" id="menu">
+          <li><a href="#">acceuil</a></li>
+          <li><a href="#">services</a></li>
+          <li><a href="#">A propos</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <h1>Formulaire</h1>
+      <hr />
+      <form action="">
+        <!--label donne le nom et lutilité a linput-->
+        <label for="pseudo">Prenom</label>
+        <!--linput fait apparaitre la case -->
+        <input type="text" id="pseudo" />
+        <label for="mail">Mail</label>
+        <input type="email" id="mail" />
+        <label for="mdp">Mdp</label>
+        <input type="password" name="" id="mdp" />
+
+        <div id="color">
+          <p>color text</p>
+          <input type="color" id="colortxt" />
+          <hr class="hr1" />
+          <p>color background</p>
+          <input type="color" id="colorbkg" />
+        </div>
+
+        <fieldset class="selection">
+          <legend>selection option</legend>
+
+          <select name="" id="">
+            <option value="France">France</option>
+            <option value="Island">Island</option>
+            <option value="Canarie">Canarie</option>
+          </select>
+        </fieldset>
+
+        <fieldset>
+          <legend>bouton radio</legend>
+          <label for="f">Femme</label>
+          <input type="radio" name="genre" id="f" />
+          <label for="h">Homme</label>
+          <input type="radio" name="genre" id="h" />
+        </fieldset>
+
+        <fieldset>
+          <legend>Bouton checkbox</legend>
+          <label for="po">pomme</label>
+          <input type="checkbox" name="" id="po" />
+          <label for="poi">poire</label>
+          <input type="checkbox" name="" id="poi" />
+          <label for="f">fraise</label>
+          <input type="checkbox" name="" id="f" />
+        </fieldset>
+        <input type="reset" />
+        <input type="submit" name="" id="bt" />
+      </form>
+    </main>
+    <footer>
+      <div class="Logo">
+        <a href="https://www.nfl.com/teams/seattle-seahawks/" target="_blank"
+          ><img
+            class="logoNFL"
+            src="resources/nfl logo copie.png"
+            alt="nfl-logo"
+        /></a>
+        <a
+          href="https://www.espn.com/nfl/team/_/name/sea/seattle-seahawks"
+          target="_blank"
+        >
+          <img
+            class="LogoESPN"
+            src="resources/ESPN_logos copie.png"
+            alt="lodoEspn"
+        /></a>
+        <a href="https://www.seahawks.com/" target="_blank">
+          <img
+            class="LogoSea"
+            src="resources/seattle-seahawks-logo copie.png"
+            alt="logoSeaFooter"
+        /></a>
+      </div>
+    </footer>
+    <script src="form.js"></script>
+  </body>
+</html>

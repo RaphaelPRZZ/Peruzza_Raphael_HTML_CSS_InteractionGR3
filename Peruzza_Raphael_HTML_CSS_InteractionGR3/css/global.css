@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+}
+
+header {
+  width: 100%;
+  background-color: rgb(0, 27, 89);
+  display: flex;
+  height: 12vh;
+  align-items: center;
+  justify-content: space-between;
+}
+.box-logo > img {
+  width: 200px;
+}
+nav > a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: xx-large;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 5px;
+}
+nav > a:hover {
+  color: rgb(150, 180, 255);
+}
+nav {
+  width: 80%;
+  display: flex;
+  justify-content: flex-start;
+  gap: 16px;
+}
+footer {
+  width: 100vw;
+  background-color: rgb(0, 27, 89);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20vh;
+}
+
+.logoNFL {
+  width: 8vw;
+}
+.LogoESPN {
+  width: 15vw;
+}
+
+.LogoSea {
+  width: 15vw;
+}
+
+footer > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 480px) {
+  nav {
+    display: flex;
+  }
+
+  nav > a {
+    padding: 1px;
+    font-size: xx-small;
+  }
+  header {
+    height: 8vh;
+  }
+  .box-logo > img {
+    width: 100px;
+  }
+  footer {
+    height: 10vh;
+  }
+}

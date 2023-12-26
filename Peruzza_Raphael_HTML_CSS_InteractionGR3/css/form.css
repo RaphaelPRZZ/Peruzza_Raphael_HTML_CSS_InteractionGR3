@@ -1,0 +1,102 @@
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.selection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+}
+main {
+  height: 50vh;
+  width: 50vw;
+  flex-direction: column;
+}
+body {
+  height: 100vh;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 49, 102, 0.596);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+hr {
+  color: black;
+}
+#color {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  align-items: center;
+}
+.hr1 {
+  height: 30px;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+}
+/*styles pour le conteneur de menu burger*/
+.burger-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px; /*marge inferieur de lelement*/
+  background-color: #333;
+}
+/*styles pour l'icone du menu burger*/
+.burger-icon {
+  cursor: pointer; /*changement de cursor sur la class*/
+}
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: none;
+}
+.menu li {
+  padding: 15px;
+  text-align: center;
+}
+.menu a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+}
+.menu.active {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+}
+body.dark header,
+body.dark footer {
+  background-color: black;
+}
+
+body.dark label,
+body.dark legend,
+body.dark h1,
+body.dark p {
+  color: white;
+}

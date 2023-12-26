@@ -1,0 +1,28 @@
+h1 {
+  display: flex;
+  justify-content: center;
+  color: white;
+  background-color: rgb(0, 27, 89);
+  font-family: Arial, Helvetica, sans-serif;
+}
+main {
+  width: 100%;
+}
+.img-responsive {
+  width: 20%;
+  display: flex;
+  align-items: center;
+}
+main {
+  width: 100%;
+}
+.statistics > img {
+  width: 100%;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  color: white;
+  background-color: rgb(0, 27, 89);
+  font-family: Arial, Helvetica, sans-serif;
+}
